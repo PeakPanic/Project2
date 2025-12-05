@@ -12,9 +12,9 @@ from PyQt6 import QtCore, QtGui, QtWidgets
 class Ui_StudentGrades(object):
     def setupUi(self, StudentGrades):
         StudentGrades.setObjectName("StudentGrades")
-        StudentGrades.resize(200, 400)
-        StudentGrades.setMinimumSize(QtCore.QSize(200, 400))
-        StudentGrades.setMaximumSize(QtCore.QSize(200, 400))
+        StudentGrades.resize(200, 380)
+        StudentGrades.setMinimumSize(QtCore.QSize(200, 380))
+        StudentGrades.setMaximumSize(QtCore.QSize(200, 380))
         self.centralwidget = QtWidgets.QWidget(parent=StudentGrades)
         self.centralwidget.setObjectName("centralwidget")
         self.titleLabel = QtWidgets.QLabel(parent=self.centralwidget)
