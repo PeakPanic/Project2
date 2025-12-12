@@ -5,6 +5,9 @@ import csv
 
 class Logic(QMainWindow, Ui_StudentGrades):
     def __init__(self):
+        '''
+        This Function runs the reset function, then handles any button presses with the appropriate function
+        '''
         super().__init__()
         self.setupUi(self)
         self.total_reset()
