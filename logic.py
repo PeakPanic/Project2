@@ -181,7 +181,7 @@ class Logic(QMainWindow, Ui_StudentGrades):
                 else:
                     self.searchGradeLabel.setText('Student Grade: F')
                 self.searchScoreLineEdit.setText(str(new_score))
-
+                self.searchScoreErrorLabel.setText('')
             else:
                 self.searchScoreErrorLabel.setText('Score must be between 0 and 100')
 
